@@ -38,6 +38,7 @@ h2 {
 }
 
 .demo {
+	padding-top: 5px;
 	font-weight: lighter;
 	word-spacing: 20px;
 }

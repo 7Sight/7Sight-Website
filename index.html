@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-		<!--Meta tags -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<!-- Page Title -->
-		<title>7Sight - Fábrica de Software</title>
-		<link rel="icon" href="img/icone.png" type="image/x-icon"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+        <!--Meta Tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- SEO Optimizations -->
+        <title>7Sight - Fábrica de Software</title>
+        <meta name="description" content="Fábrica de Software do Centro Universitário Euro-Americano, composta por graduandos do curso de Bacharel em Sistemas de Informação."
+        <link rel="canonical" href="www.7sight.com.br">
+        <meta name="author" content="7Sight">
+        <meta name="robots" content="index, nofollow">
+        
+        <!-- Page Title -->
+        <link rel="icon" href="img/icone.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 </head>
 <body>
-	<div class="bgimagem">
-		<div class="textomeio">
-			<h2>em construção</h2>
-			<h1>COMING SOON</h1>
+    <div class="bgimagem">
+        <div class="textomeio">
+            <h2>em construção</h2>
+            <h1>COMING SOON</h1>
+            <!--- Add Linha -->
+            <hr>
+            <!-- Parágrafo -->
+            <p id="demo" style="font-size: 40px"></p>
+        </div>
+    </div>
 
-			<!--- Add Linha -->
-			<hr>
-
-			<!-- Parágrafo -->
-			<p id="demo" style="font-size: 40px"></p>
-
-
-
-		</div>
-	</div>
 <script type="text/javascript">
-    	//set date for count down
-  		var countDownDate = new Date("Dec 31, 2018 00:00:00").getTime();
-    	// update the counter down every 1 sec
-    	var countDownFunction = setInterval(function(){
+        //set date for count down
+        var countDownDate = new Date("Dec 31, 2018 00:00:00").getTime();
+        // update the counter down every 1 sec
+        var countDownFunction = setInterval(function(){
         // get today date
         var now = new Date().getTime();
         // find distance btw now and countdown Date
@@ -47,12 +49,11 @@
         document.getElementById('demo').innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
         //if the count down is over , write some text
         if(distance < 0) {
-          	clearInterval(countDownFunction);
-          	document.getElementById("demo").innerHTML = "Em breve.";
+            clearInterval(countDownFunction);
+            document.getElementById("demo").innerHTML = "Em breve.";
           }
         }, 1000);
 </script>
-
 
 </body>
 </html>
