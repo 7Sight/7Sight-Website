@@ -20,40 +20,71 @@
         <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 </head>
 <body>
-    <div class="bgimagem">
-        <div class="textomeio">
-            <h2>em construção</h2>
-            <h1>COMING SOON</h1>
-            <!--- Add Linha -->
-            <hr>
-            <!-- Parágrafo -->
-            <p id="demo" style="font-size: 40px"></p>
+<!--Início NavBar-->
+   <nav>
+       <ul>
+           <li>Sobre</li>
+           <li>Serviços</li>
+           <li>Time</li>
+           <li>Portfólio</li>
+           <li>Contato</li>
+       </ul>
+   </nav>
+<!--Fim NavBar--> 
+
+<!--Início Home-->
+    <div>
+        <h1>Dar vida ao seu projeto é nosso objetivo!</h1>
+        <button>Entrar em contato</button>
+    </div>
+<!--Fim Home-->
+
+<!--Início Sobre-->
+    <div>
+        <h1>Sobre Nós</h1>
+        <div>
+            16 Membros
+        </div>
+        <div>
+            5 Projetos
         </div>
     </div>
+<!--Fim Sobre-->
 
-<script type="text/javascript">
-        //set date for count down
-        var countDownDate = new Date("Dec 31, 2018 00:00:00").getTime();
-        // update the counter down every 1 sec
-        var countDownFunction = setInterval(function(){
-        // get today date
-        var now = new Date().getTime();
-        // find distance btw now and countdown Date
-        var distance = countDownDate - now ;
-        // time calc for days, hours , minutes and seconds
-        var days = Math.floor(distance /(1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60 )) / (1000 * 60 ));
-        var seconds = Math.floor((distance % (1000 * 60)) / (1000 ));
-        //output the result in element demo
-        document.getElementById('demo').innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-        //if the count down is over , write some text
-        if(distance < 0) {
-            clearInterval(countDownFunction);
-            document.getElementById("demo").innerHTML = "Em breve.";
-          }
-        }, 1000);
-</script>
+<!--Início Serviços-->
+    <div>
+        <h1>Nossos Serviços</h1>
+        <div>
+            Desenvolvimento de Site
+        </div>
+        <div>
+            Desenvolvimento de Sistema
+        </div>
+    </div>
+<!--Fim Serviços-->
 
+<!--Início Time-->
+    <div>
+        <h1>Nosso Time</h1>
+    </div>
+<!--Fim Time-->
+
+<!--Início Portfólio-->
+    <div>
+        <h1>Nosso Portfólio</h1>
+    </div>
+<!--Fim Portfólio-->
+
+<!--Início Contato-->
+    <div>
+        <h1>Contato</h1>
+    </div>
+<!--Fim Contato-->
+
+<!--Início Footer-->
+    <footer>
+        <h1>2018 - Desenvolvido por 7Sight</h1>
+    </footer>
+<!--Fim Footer-->
 </body>
 </html>
