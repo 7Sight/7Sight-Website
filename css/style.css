@@ -29,7 +29,7 @@ body, html {
 
 h1 {
 	font-size: 40px;
-	
+	font-family:arial;
 	font-weight: 75%;
    
 }
@@ -51,16 +51,18 @@ hr {
 }
 
 .nav-item{
-    font-size:20px;
-
-   
+    font-size:20px; 
 }
-.color{
-	color:#63d32f;
+.card-columns {
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
 }
 
 
-
-   }
-
-
+.time{
+	background-color:#C0C0C0;
+}
