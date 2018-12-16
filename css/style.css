@@ -53,16 +53,7 @@ hr {
 .nav-item{
     font-size:20px; 
 }
-.card-columns {
-  @include media-breakpoint-only(sm) {
-    column-count: 2;
-  }
-  @include media-breakpoint-only(sm) {
-    column-count: 2;
-  }
-}
-
 
 .time{
-	background-color:#C0C0C0;
+	background-color:#D3D3D3;
 }
