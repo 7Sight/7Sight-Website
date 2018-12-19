@@ -1,0 +1,56 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.bgimagem {
+	background: url(../img/1.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.demo {
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+
+.textomeio {
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-weight: 75%;
+}
+
+h2 {
+	letter-spacing: 5px;
+}
+
+.demo {
+	padding-top: 5px;
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+
+hr {
+	margin: auto;
+	width: 50%;
+	border: 1.5px solid #fff;
+}
+
+.nav-item{
+    font-size:20px;
+
+
+}
