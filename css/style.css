@@ -58,8 +58,7 @@ hr {
 	
 }
 
-.icon{
-	padding: 15px 15px 15px 15px;
-
+.card-body{
+	align-items: center;
 
 }
