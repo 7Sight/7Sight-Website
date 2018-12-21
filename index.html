@@ -1,90 +1,255 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-        <!--Meta Tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-        <!-- SEO Optimizations -->
-        <title>7Sight - Fábrica de Software</title>
-        <meta name="description" content="Fábrica de Software do Centro Universitário Euro-Americano, composta por graduandos do curso de Bacharel em Sistemas de Informação."
-        <link rel="canonical" href="www.7sight.com.br">
-        <meta name="author" content="7Sight">
-        <meta name="robots" content="index, nofollow">
-        
-        <!-- Page Title -->
-        <link rel="icon" href="img/icone.png" type="image/x-icon"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
-</head>
-<body>
-<!--Início NavBar-->
-   <nav>
-       <ul>
-           <li>Sobre</li>
-           <li>Serviços</li>
-           <li>Time</li>
-           <li>Portfólio</li>
-           <li>Contato</li>
-       </ul>
-   </nav>
-<!--Fim NavBar--> 
+	<head>
+		<!--Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<!--Início Home-->
-    <div>
-        <h1>Dar vida ao seu projeto é nosso objetivo!</h1>
-        <button>Entrar em contato</button>
-    </div>
-<!--Fim Home-->
+		<!-- SEO Optimizations -->
+		<title>7Sight - Fábrica de Software</title>
+		<meta name="description" content="Fábrica de Software do Centro Universitário Euro-Americano, composta por graduandos do curso de Bacharel em Sistemas de Informação.">
+		<link rel="canonical" href="www.7sight.com.br">
+		<meta name="author" content="7Sight">
+		<meta name="robots" content="index, nofollow">
 
-<!--Início Sobre-->
-    <div>
-        <h1>Sobre Nós</h1>
-        <div>
-            16 Membros
-        </div>
-        <div>
-            5 Projetos
-        </div>
-    </div>
-<!--Fim Sobre-->
-
-<!--Início Serviços-->
-    <div>
-        <h1>Nossos Serviços</h1>
-        <div>
-            Desenvolvimento de Site
-        </div>
-        <div>
-            Desenvolvimento de Sistema
-        </div>
-    </div>
-<!--Fim Serviços-->
-
-<!--Início Time-->
-    <div>
-        <h1>Nosso Time</h1>
-    </div>
-<!--Fim Time-->
-
-<!--Início Portfólio-->
-    <div>
-        <h1>Nosso Portfólio</h1>
-    </div>
-<!--Fim Portfólio-->
-
-<!--Início Contato-->
-    <div>
-        <h1>Contato</h1>
-    </div>
-<!--Fim Contato-->
-
-<!--Início Footer-->
-    <footer>
-        <h1>2018 - Desenvolvido por 7Sight</h1>
-    </footer>
-<!--Fim Footer-->
-</body>
+		<!-- Page Title -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="icon" href="img/icone.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<!--Início NavBar-->
+		<nav class="navbar navbar-expand-xl container-fluid navbar-dark bg-dark py-3 fixed-top">            
+			<div class="row justify-content-center">
+				<div class="col-4">
+					<img src="img/logo.png" width="155" height="55" alt="" class="navbar-brand">
+				</div>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="bar"> 
+				<div class="row justify-content-end">
+					<div class="col-4">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-item nav-link disabled ml-5 smoothScroll text-white" href="#sobre">Sobre</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#servicos">Serviços</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#time">Time</a>
+							</li>        
+							<li class="nav-item">
+								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#portifolio">Portifólio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#contato">Contato</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!--Fim NavBar--> 
+		
+		<!--Início Home-->
+		<section id="home" class="bgimagem">
+			<div class="container-fluid">			
+				<h1 clas="home-title"><font color=White>Dar vida ao seu projeto <br>é nosso objetivo!</font></h1>
+				<div class="col-md-2 p-lg-4 mx-auto my-4">
+					<a class="btn btn-success" href="#contato">Entrar em contato</a>
+				</div>
+			</div>
+		</section>
+		<!--Fim Home-->
+		
+		<!--Início Sobre-->
+		<section id="sobre" class="container-fluid">
+			<h1>Sobre <font color=63d32f>Nós</font></h1>
+			<div class="row justify-content-sm-center">
+				<div class="col-md-6 p-lg-4 mx-auto my-1">
+					<img src="img/sobrenos.jpg" class="img-thumbnail float-left">				
+				</div>
+				<div class="cnt col-sm-6 p-lg-4 mx-auto my-6">
+					<p>Somos a 7Sight, fábrica de software, gerida e composta por alunos do curso de Sistemas de Informação da Unieuro de Brasília. Formada em Março de 2018, colocamos na prática o conhecimento adquirido em sala de aula, promovendo a capacitação pessoal dos membros ao atender nossos clientes buscando sempre a melhor solução!</p>
+				</div>	
+			</div>	
+			<div class="row justify-content-sm-center bg-dark text-center py-2">				 	
+				<div class="col-6">
+					<img src="img/users1.png" class="img-fluid">
+					<img src="img/16menbros.png" class="img-fluid">					
+				</div>
+				<div class="col-6">
+					<img src="img/icon_notebook.png" class="img-fluid">					
+					<img src="img/5Projetos.png" class="img-fluid">					
+				</div>			
+			</div>			
+		</section>
+		<!--Fim Sobre-->
+		
+		<!--Início Serviços-->
+		<section id="servicos">			
+			<h1>Nossos <font color=63d32f>Serviços</font></h1>
+			<div class="container-fluid">
+				<div class="row justify-content-sm-center">
+					<div class="mx-auto">
+						<div class="site">
+							<div class="icon">
+								<img src="img/computer.png">
+							</div>
+							<h4>Desenvolvimento de Site</h4>
+							<p>Desenvolvimento de sites responsivos com <br> sistemas gerenciadores de conteúdo (CMS).</p>
+						</div>
+					</div>
+					<div class="mx-auto">
+						<div class="sistema">
+							<div>
+								<img src="img/configuration1.png" class="icon-sistema">
+							</div>
+							<h4>Desenvolvimento de Sistema</h4>
+							<p>Desenvolvimento de sistemas personalizados e <br> ajustados para agilizar e integrar seus processos.</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+		<!--Fim Serviços-->
+		
+		<!--Início Time-->
+		<section id="time" class="container-fluid" style="background-color:#D3D3D3;">			
+			<h1>Nosso <font color=63d32f>Time</font></h1>						       
+				
+					<div class="card-deck row justify-content-sm-center">
+						<div class="card text-center" style="width: 14rem;">
+							<img class="card-img-top" src="img/IMG_0353.jpg" alt="Card image cap">
+							<div class="card-body" style="background-color:#D3D3D3;">
+								<h5 class="card-title">Jessica Mazoni</h5> 
+								<p class="card-text">Presidente Institucional</p>
+								<a href="https://www.facebook.com/jessica.mazoni.5"><img src="img/facebook2v.png" class="rounded col-4" width="22"></a>
+								<a href="https://www.linkedin.com/in/jessicamazonimoura/"><img src="img/linkedinv.png" class="rounded col-4" width="22"></a>
+							</div>
+						</div>              
+						<div class="card text-center" style="width: 14rem;">
+							<img class="card-img-top" src="img/IMG_0299.jpg" alt="Card image cap">
+							<div class="card-body" style="background-color:#D3D3D3;">
+								<h5 class="card-title">Alessandro Melo</h5>
+								<p class="card-text">Líder do Núcleo de Administração Financeira</p>
+								<a href="https://www.facebook.com/Alessandro0202" class="icon"><img src="img/facebook2v.png" class="rounded col-4" width="22"></a>
+								<a href="https://www.linkedin.com/in/alessandromelosilva/" class="icon"><img src="img/linkedinv.png" class="rounded col-4"width="22"></a>                     
+							</div>
+						</div>       
+						<div class="card text-center" style="width: 14rem;">
+							<img class="card-img-top" src="img/IMG_0360.jpg" alt="Card image cap">
+							<div class="card-body" style="background-color:#D3D3D3;">
+								<h5 class="card-title">Maria Verônica</h5> 
+								<p class="card-text">Líder do Núcleo de Pessoas</p>
+								<a href="https://www.facebook.com/MariaVeronicaMartinsChaves" class="icon"><img src="img/facebook2v.png" class="rounded col-4" width="22"></a>
+								<a href="https://www.linkedin.com/in/maria-ver%C3%B4nica-martins-chaves-230460109/" class="icon"><img src="img/linkedinv.png" class="rounded col-4" width="22"></a>
+							</div>
+						</div>
+						<div class="card text-center" style="width: 14rem;">
+							<img class="card-img-top" src="img/interrogacao.jpg" alt="Card image cap">
+							<div class="card-body" style="background-color:#D3D3D3;">
+								<h5 class="card-title">???????</h5> 
+								<p class="card-text">???????</p>
+								<a href="#" class="icon"><img src="img/facebook2v.png"class="rounded col-4" width="22"></a>
+								<a href="#" class="icon"><img src="img/linkedinv.png" class="rounded col-4" width="22"></a>                      
+							</div>
+						</div>	
+						<div class="card text-center" style="width: 14rem;">
+							<img class="card-img-top" src="img/interrogacao.jpg" alt="Card image cap">
+							<div class="card-body" style="background-color:#D3D3D3;">
+								<h5 class="card-title">???????</h5> 
+								<p class="card-text">???????</p>
+								<a href="#" class="icon"><img src="img/facebook2v.png" class="rounded col-4"  width="22"></a>
+								<a href="#" class="icon"><img src="img/linkedinv.png" class="rounded col-4" width="22"></a>    
+							</div>
+						</div>
+					</div>					
+									
+		</section>
+		<!--Fim Time-->
+		
+		<!--Início Portfólio-->
+		<section id="portifolio">
+			<h1>Nosso <font color=63d32f>Portfólio </font></h1>
+			<div class="row">
+				<div class="col-sm">
+					<img  class="img-fluid img-thumbnail" src="img/3.jpg" alt="Card image cap">
+					<h5 class="text-center">AFN Engenharia</h5>
+				</div>
+				<div class="col-sm">
+					<img  class="img-fluid img-thumbnail" src="img/4.jpg" alt="Card image cap">
+					<h5 class="text-center">Atêlie dos Sonhos</h5>
+				</div>
+			</div>				
+		</section>
+		<!--Fim Portfólio-->
+		
+		<!--Início Contato-->
+		<section id="contato" class="container-fluid bg-dark">					
+				<div class="py-5 my-5 text-center">
+					<h3 class="display-2 text-success">Contato</h3>
+				</div> 
+				<div class="row">
+					<div class="col-lg-7 mb-5">
+						<form class="bg-dark text-white rounded p-0 box-shadow" action="">
+							<div class="form-group">
+								<label for="ClienteNome">Nome</label>
+								<input type="text" class="form-control" id="ClienteNome bg-success">
+							</div>
+							<div class="form-group">
+								<label for="ClienteTel">Telefone</label>
+								<input type="text" class="form-control" id="ClienteTel">
+							</div>					
+							<div class="form-group">
+								<label for="ClienteEmail">Email</label>
+								<input type="email" class="form-control" id="ClienteEmail">
+							</div>
+							<div class="form-group">
+								<label for="ClienteMensagem">Mensagem</label>
+								<textarea id="ClienteMensagem" class="form-control" rows="6"></textarea>
+							</div>
+							<div class="small text-center m-0 py-3">
+								<button type="submit" class="btn btn-success">Enviar</button>
+							</div>
+						</form>   
+					</div>
+					<div class="col ml-5 py-3">
+						<h2 class="h1 text-success ml-5">Endereço</h2>
+						<h2 class="h4 text-white ml-5">Av.Castanheiras,Lote 3700-Águas claras</h2>
+						<h2 class="h4 text-white ml-5">Brásilia-DF,70297-400</h2>
+						<h3 class="h1 text-success ml-5 lg-py-1">Redes sociais</h3>
+						<div class="row"> 
+							<div class="col-2 ml-5">
+								<img src="img/facebook4.png" class="rounded" width="30">
+							</div>
+							<div class="col-2">
+								<img src="img/linkedin4.png" class="rounded" width="30">
+							</div>
+							<div class="col-2">
+								<img src="img/instagram3.png" class="rounded" width="30">
+							</div>
+						</div>     
+					</div>
+				</div>			
+		</section>
+		<!--Fim Contato-->
+		<!--Início Footer-->
+		<footer>
+			<div class="bg-success py-1"></div>
+			<div class="bg-dark text-center py-4">
+				<p class="mb-0 text-white text-center"> 2018-Desenvolvido pela 7Sigth</p>    
+			</div>
+		</footer>
+		<!--Fim Footer-->
+	</body>
 </html>
