@@ -48,7 +48,7 @@
 								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#time">Time</a>
 							</li>        
 							<li class="nav-item">
-								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#portifolio">Portifólio</a>
+								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#portifolio">Portfólio</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-item nav-link disabled ml-5 text-white smoothScroll" href="#contato">Contato</a>
@@ -214,22 +214,22 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-7 mb-5">
-						<form class="bg-dark text-white rounded p-0 box-shadow" action="">
+						<form class="bg-dark text-white rounded p-0 box-shadow" method="POST" action="./email.php">
 							<div class="form-group">
 								<label for="ClienteNome">Nome</label>
-								<input type="text" class="form-control" id="ClienteNome bg-success">
+								<input type="text" class="form-control" name="nome" id="ClienteNome bg-success">
 							</div>
 							<div class="form-group">
 								<label for="ClienteTel">Telefone</label>
-								<input type="text" class="form-control" id="ClienteTel">
+								<input type="text" class="form-control" name="telefone" id="ClienteTel">
 							</div>                                                                
 							<div class="form-group">
 								<label for="ClienteEmail">Email</label>
-								<input type="email" class="form-control" id="ClienteEmail">
+								<input type="email" class="form-control" name="email" id="ClienteEmail">
 							</div>
 							<div class="form-group">
 								<label for="ClienteMensagem">Mensagem</label>
-								<textarea id="ClienteMensagem" class="form-control" rows="6"></textarea>
+								<textarea id="ClienteMensagem" class="form-control" name="msg" rows="6"></textarea>
 							</div>
 							<div class="small text-center m-0 py-3">
 								<button type="submit" class="btn btn-success">Enviar</button>
@@ -238,12 +238,12 @@
 					</div>
 					<div class="col ml-5 py-3">
 						<h5 class="h3 text-success ml-5"><font face="Arial color=63d32f">Endereço</h5></font>
-						<h5 class="h5 text-white ml-5"><font face="Arial">Av.Castanheiras,Lote 3700-Águas claras</h5></font>
-						<h5 class="h5 text-white ml-5"><font face="Arial">Brásilia-DF,70297-400</h5></font>
+						<h5 class="h5 text-white ml-5"><font face="Arial">Av. Castanheiras, Lote 3700 - Águas claras</h5></font>
+						<h5 class="h5 text-white ml-5"><font face="Arial">Brásilia - DF, 70297-400</h5></font>
 					</br>
 				</br>
 			</br>
-			<h6 class="h3 text-success ml-5 lg-py-1"><font face="Arial color=63d32f">Redes sociais</h6></font>
+			<h6 class="h3 text-success ml-5 lg-py-1"><font face="Arial color=63d32f">Redes Sociais</h6></font>
 			<div class="row">
 				<div class="col-2 ml-5">
 					<img src="img/facebook4.png" class="rounded" width="30">
@@ -264,7 +264,7 @@
 		<footer>
 			<div class="bg-success py-1"></div>
 			<div class="bg-dark text-center py-4">
-				<p class="mb-0 text-white text-center"> 2018-Desenvolvido pela 7Sigth</p>    
+				<p class="mb-0 text-white text-center"> 2018 - Desenvolvido por 7Sight</p>    
 			</div>
 		</footer>
 		<!--Fim Footer-->
