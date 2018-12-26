@@ -51,9 +51,8 @@ hr {
 	position: center;
 }
 
-.btn:hover {
-	background-color: #ffffff;
-	color: #63d32f;
+.sobrenos{
+	font-size: 1.5em;
 }
 
 .texto-home h1{
