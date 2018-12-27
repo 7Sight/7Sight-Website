@@ -1,0 +1,116 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.demo {
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+
+.textomeio {
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 75%;
+}
+
+h2 {
+	letter-spacing: 5px;
+}
+
+.demo {
+	padding-top: 5px;
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+
+hr {
+	margin: auto;
+	width: 50%;
+	border: 1.5px solid #fff;
+}
+
+.nav-item{
+    font-size:20px;
+
+
+}
+
+.btn{
+	position: center;
+}
+
+.sobrenos{
+	font-size: 1.5em;
+}
+
+.texto-home h1{
+	font-size: 55px;
+	font-family: "Arial";
+	color: #ffffff;
+	letter-spacing: .1em;
+	text-transform: bold;
+	font-weight: 550; 
+	line-height: 1.2;
+	text-align: center;
+	position: absolute;
+	left: 150px;
+	right: 160px;
+	top: 250px;
+	z-index: 91;
+}
+
+.container h1 {
+	font-size: 40px;  
+	font-family: "Arial";  
+	font-weight: 500;
+	letter-spacing: .1em; 
+	line-height: 1.2;
+	text-align: center;
+	left: 350;
+	}
+
+.bgimagem{	
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	margin: 0 auto;
+	padding: 2.5em;
+	min-height: 630px;
+	background-image: url("../img/capa_home.jpg");
+	height: 100%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+p{
+	text-align: justify;
+	
+}
+
+.cnt{
+	margin: 60px;
+	
+}
+
+/* NAVBAR RESPONSIVA */
+
+.navbar.fixed-top.navbar-expand-lg.navbar-dark{
+  background: black;
+  opacity: 0.8;
+}
+
+
